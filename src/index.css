@@ -4,6 +4,10 @@
 @plugin "daisyui";
 
 
+html {
+    background-color: #f0f2f3;
+}
+
 @theme {
     --font-inter: "Inter", sans-serif;
 }

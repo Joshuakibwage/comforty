@@ -1,6 +1,7 @@
 import React from 'react';
 import Banner from '../../Components/Banner/Banner';
 import Delivery from '../../Components/Delivery/Delivery';
+import Brand from '../../Components/Brand/Brand';
 
 
 const Home = () => {
@@ -15,6 +16,10 @@ const Home = () => {
       {/* Delivery component */}
       <div className="delivery_component w-full min-h-[#150px] ">
         <Delivery></Delivery>
+      </div>
+
+      <div className="brand flex justify-center items-center w-full mt-8 mb-8 bg-[#f0f2f3]">
+        <Brand />
       </div>
 
 
