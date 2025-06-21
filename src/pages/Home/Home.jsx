@@ -4,11 +4,12 @@ import Delivery from '../../Components/Delivery/Delivery';
 import Brand from '../../Components/Brand/Brand';
 import Features from '../../Components/Features/Features';
 import Categories from '../../Components/Categories/Categories';
+import Product from '../../Components/Product/Product';
 
 
 const Home = () => {
   return (
-    <div className="">
+    <div className="w-full ">
       
       {/* banner component */}
       <div className="w-full min-h-[850px] bg-[#f0f2f3] flex items-center justify-center rounded-b-3xl">
@@ -30,6 +31,10 @@ const Home = () => {
 
       <div className="w-full flex items-center justify-center mb-[80px]">
         <Categories></Categories>
+      </div>
+
+      <div className="w-full flex items-center justify-center mb-[80px]">
+        <Product></Product>
       </div>
 
 
