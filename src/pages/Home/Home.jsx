@@ -3,6 +3,7 @@ import Banner from '../../Components/Banner/Banner';
 import Delivery from '../../Components/Delivery/Delivery';
 import Brand from '../../Components/Brand/Brand';
 import Features from '../../Components/Features/Features';
+import Categories from '../../Components/Categories/Categories';
 
 
 const Home = () => {
@@ -25,6 +26,10 @@ const Home = () => {
 
       <div className="w-full flex items-center justify-center mb-[80px]">
         <Features></Features>
+      </div>
+
+      <div className="w-full flex items-center justify-center mb-[80px]">
+        <Categories></Categories>
       </div>
 
 
