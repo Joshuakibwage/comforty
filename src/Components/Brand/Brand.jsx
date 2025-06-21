@@ -41,7 +41,6 @@ const Brand = () => {
         },
  
     ]
-    console.log(brands)
 
     return (
        <div className="lg:container mx-auto ">
