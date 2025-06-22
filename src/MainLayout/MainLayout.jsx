@@ -7,6 +7,8 @@ import Login from './../pages/Auth/Login/Login';
 import Register from './../pages/Auth/Register/Register';
 import Error from './../pages/Error/Error';
 import AuthCheck from '../AuthCheck/AuthCheck';
+import Footer from './../Components/Footer/Footer';
+
 
 
 
@@ -29,6 +31,8 @@ const MainLayout = () => {
         {/* not found routes */}
         <Route path='*' element={<Error />} />
       </Routes>
+      {/* footer component */}
+      <Footer />
     </BrowserRouter>
   )
 }
