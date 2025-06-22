@@ -6,6 +6,7 @@ import Features from '../../Components/Features/Features';
 import Categories from '../../Components/Categories/Categories';
 import Product from '../../Components/Product/Product';
 import Client from '../../Components/Client/Client';
+import Recent from '../../Components/Recent/Recent';
 
 
 
@@ -41,6 +42,10 @@ const Home = () => {
 
       <div className="w-full flex items-center justify-center bg-[#f0f2f3] min-h-[589px]">
         <Client></Client>
+      </div>
+
+      <div className="w-full flex items-center justify-center bg-[#f0f2f3] min-h-[589px]">
+        <Recent></Recent>
       </div>
 
     </div>
